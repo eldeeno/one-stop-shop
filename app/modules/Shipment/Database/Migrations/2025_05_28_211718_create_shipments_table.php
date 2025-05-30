@@ -13,6 +13,9 @@ return new class extends Migration
     {
         Schema::create('shipments', function (Blueprint $table) {
             $table->id();
+            $table->foreignId('order_id');
+            $table->string('provider');
+            $table->string('provider_shipment_id');
             $table->timestamps();
         });
     }
