@@ -5,6 +5,6 @@ namespace App\Modules\Order\Test;
 use App\Modules\Order\Models\Order;
 use Tests\TestCase;
 
-class OrderTest extends TestCase {
+class OrderTestCase extends TestCase {
 
 }
